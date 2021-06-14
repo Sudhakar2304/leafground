@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Leafground]">
+  <test thread-count="5" name="Edit button(failed)">
+    <classes>
+      <class name="testcases.CommonLandingPage">
+        <methods>
+          <include name="CommonPage"/>
+          <include name="tearDown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testcases.CommonLandingPage -->
+    </classes>
+  </test> <!-- Edit button(failed) -->
+</suite> <!-- Failed suite [Leafground] -->
